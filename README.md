@@ -1,1 +1,5 @@
 # Comparison-of-Multiple-Distribution
+Immobilienscout24 (immoscout24.de) is one of the three biggest real estate web-portals in Germany. On its website you can find listings of rental properties and homes for sale. The given data set (ImmoDataRuhr.csv) contains the rental price per square meter for 200 properties located in the four largest cities of the Ruhrgebiet (Ruhr area). It is an extract of a large data set containing rental offers of properties in Germany as of February 20, 2020. The original data are available on (kaggle.com) for educational/research purposes only. Tasks:
+
+Does the rental price per square meter differ between the four cities? Conduct a global test.
+Are there pairwise differences between the rental prices per square meter? Consider all pairs of cities and conduct two-sample tests. Adjust the test results with the Bonferroni method in order to address the multiple testing problem. Interpret the results. Compare the results with and without adjusting for multiple testing.
